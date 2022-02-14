@@ -1,0 +1,22 @@
+:root {
+    --header-height: 50px;
+}
+
+
+header {
+    /* position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0; */
+    height: var(--header-height);
+
+    background-color: black;
+}
+
+header img {
+    position: absolute;
+    top: 50%;
+    right: .5rem;
+    transform: translatey(-50%);
+    width: 100px;
+}
