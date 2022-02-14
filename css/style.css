@@ -81,3 +81,20 @@ nav {
     background-color: #1f1f1f;
     color: white;
 }
+
+.ps-plus {
+    background-color: #bebcbb;
+}
+
+.ps-plus img {
+    width: 300px;
+}
+
+.ps-now {
+    background-color: #161c3b;
+    color: white;
+}
+
+.ps-now img {
+    width: 300px;
+}
