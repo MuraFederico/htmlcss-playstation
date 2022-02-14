@@ -1,7 +1,11 @@
 :root {
     --header-height: 50px;
+    --banners-height: 600px;
 }
 
+img {
+    width: 100%;
+}
 
 header {
     /* position: fixed;
@@ -19,4 +23,61 @@ header img {
     right: .5rem;
     transform: translatey(-50%);
     width: 100px;
+}
+
+nav {
+    margin-top: var(--header-height);
+}
+
+.returnal-banner {
+    display: flex;
+    align-items: flex-end;
+    height: var(--banners-height);
+
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.returnal-banner img,
+.takes-two-banner img {
+    width: 300px;
+}
+
+.banner-content {
+    /* position: relative;
+    bottom: 0;
+    left: 0; */
+    color: white;
+
+}
+
+.card-games {
+    margin-bottom: 70px;
+}
+
+.card-games img {
+    width: 100%;
+}
+
+.ps5 img {
+    width: 100%;
+}
+
+.takes-two-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: var(--banners-height);
+
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.new-games {
+    padding-top: 50px;
+    background-color: #1f1f1f;
+    color: white;
 }
