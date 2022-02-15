@@ -2,11 +2,6 @@
     --header-height: 50px;
 }
 
-
-img {
-    width: 100%;
-}
-
 .ms_text-gray {
     color: gray;
 }
@@ -37,12 +32,12 @@ nav .logo {
     width: 50px;
 }
 
-nav ul {
-    margin-right: 1.25rem;
-}
-
 nav a {
     color: black !important;
+}
+
+.ms_list-style {
+    list-style: disc;
 }
 
 
@@ -97,6 +92,11 @@ nav a {
     background-color: #bebcbb;
 }
 
+.ms_btn-plus {
+    background-color: #d9dadc;
+    color: #3c6ee4;
+}
+
 .logo {
     width: 300px;
 }
@@ -104,5 +104,32 @@ nav a {
 .ps-now {
     background-color: #161c3b;
     color: white;
+}
+
+footer {
+    padding: 100px 0;
+    background-color: #00439c;
+    color: white;
+}
+
+footer .logo {
+    width: 100px;
+}
+
+footer .globe {
+    width: 30px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.sie {
+    height: 50px;
 }
 
