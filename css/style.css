@@ -36,8 +36,8 @@
     display: inline-block;
 }
 
-.ms_outline:hover {
-    padding: 5px;
+.ms_outline:hover [class *= "ms_btn-"]{
+    transform: scale(.9,.8);
 }
 
 .ms_outline-dark {
